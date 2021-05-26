@@ -6,7 +6,7 @@ sudo rm /var/cache/apt/archives/lock;
 
 # Verifica atualizações do APT e instala
 clear
-echo "Verificando se Há atualizações"
+echo "Verificando se há atualizações..."
 sudo apt update;
 
 clear
@@ -14,7 +14,7 @@ echo "Baixando e instalando atualizações..."
 sudo apt-get upgrade;
 
 clear
-echo "Baixando atualiza"
+echo "Baixando atualizações..."
 sudo apt dist-upgrade -y;
 
 clear
